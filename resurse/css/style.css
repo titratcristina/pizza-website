@@ -1,5 +1,5 @@
 html {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     color: #1D1313;
 }
 
@@ -167,6 +167,10 @@ ul.menu>li:hover {
 
 
 /* ---------------------------------- FOOTER ---------------------------------- */
+.font-pacifico {
+    font-family: 'Pacifico', cursive;
+}
+
 .footer {
     padding: 0 10% 5% 10%;
     background-color: #1d1313;
