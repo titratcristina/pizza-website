@@ -24,6 +24,18 @@ h6 {
     font-family: 'Open Sans', sans-serif;
 }
 
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.text-large {
+    font-size: 2rem;
+}
+
 .banner {
     padding-top: 20px;
     width: 100%;
