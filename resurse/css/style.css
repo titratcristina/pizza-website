@@ -115,57 +115,6 @@ ul.menu>li:hover {
     color: #F36D21;
 }
 
-/* ---------------------------------- GALERIE ANIMATA - exemplu ---------------------------------- */
-/* #container_animatie {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    height: 300px;
-    box-sizing: content-box;
-}
-
-#derulant {
-    display: flex;
-    flex-wrap: nowrap;
-    position: absolute;
-    animation-name: go;
-    animation-direction: alternate;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-duration: 50s;
-}
-
-#derulant>* {
-    flex-shrink: 0;
-    position: relative;
-}
-
-#container_animatie figure:hover figcaption {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: auto;
-    font-size: 1.5em;
-    background: rgba(200, 200, 200, 0.5);
-    text-align: center;
-}
-
-#container_animatie * {
-    height: 100%;
-    width: auto;
-}
-
-@keyframes go {
-    0% {
-        left: 0px;
-    }
-
-    100% {
-        left: -600%;
-    }
-} */
-
-
 /* ---------------------------------- FOOTER ---------------------------------- */
 .font-pacifico {
     font-size: 2.5rem;
@@ -244,3 +193,54 @@ ul.menu>li:hover {
         transform: translateY(-60px) translateX(720px) rotate(360deg);
     }
 }
+
+
+/* ---------------------------------- GALERIE ANIMATA - exemplu ---------------------------------- */
+/* #container_animatie {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 300px;
+    box-sizing: content-box;
+}
+
+#derulant {
+    display: flex;
+    flex-wrap: nowrap;
+    position: absolute;
+    animation-name: go;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 50s;
+}
+
+#derulant>* {
+    flex-shrink: 0;
+    position: relative;
+}
+
+#container_animatie figure:hover figcaption {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    font-size: 1.5em;
+    background: rgba(200, 200, 200, 0.5);
+    text-align: center;
+}
+
+#container_animatie * {
+    height: 100%;
+    width: auto;
+}
+
+@keyframes go {
+    0% {
+        left: 0px;
+    }
+
+    100% {
+        left: -600%;
+    }
+} */
