@@ -39,7 +39,7 @@ h6 {
     position: relative;
     transition: .1s;
     animation: movement 5.5s linear infinite;
-    margin: calc(7.1vw - 90px) auto 0;
+    margin: calc(7vw - 90px) auto 0;
 
 }
 
