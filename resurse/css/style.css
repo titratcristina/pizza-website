@@ -167,6 +167,12 @@ ul.menu>li:hover {
 
 
 /* ---------------------------------- FOOTER ---------------------------------- */
+.footer {
+    padding: 0 10% 5% 10%;
+    background-color: #1d1313;
+    color: #ffffff;
+}
+
 .curve {
     background: radial-gradient(100% 100% at top, transparent 52%, #1d1313 50%);
     margin: 0 auto;
