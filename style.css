@@ -1,9 +1,18 @@
-html,
-body {
-    margin: 0;
-    padding: 0;
+html {
     font-family: Roboto;
-    width: 100%
+    color: #1D1313;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-indent: 0px;
+}
+
+main {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 50px;
 }
 
 h1,
@@ -20,9 +29,76 @@ h6 {
 }
 
 .logo {
-    width: 10%
+    padding-top: .5rem;
+    width: 50%
 }
 
+
+/* ---------------------------------- MENU ---------------------------------- */
+nav {
+    width: 100%;
+    position: fixed;
+}
+
+ul.menu>li,
+ul.menu>li>ul.submenu>li {
+    display: block;
+    font-size: 1rem;
+    font-weight: bold;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    list-style-type: none;
+    overflow: hidden;
+    font-weight: 400;
+}
+
+ul.menu>li {
+    float: left;
+    width: 12.5%;
+}
+
+ul.submenu>li {
+    float: left;
+    width: 100%;
+}
+
+ul.menu>li>a,
+ul.menu>li>div,
+ul.submenu>li>a {
+    /* padding: 10px; */
+    display: block;
+    height: 100%;
+    text-decoration: none;
+    color: #1D1313;
+}
+
+ul.menu>li a,
+ul.menu>li div {
+    background: #ffffff;
+}
+
+ul.menu>li>ul.submenu {
+    position: relative;
+    top: 0px;
+}
+
+ul.menu>li>a:hover,
+ul.submenu>li>a:hover {
+    background: #ffffff;
+    color: #F36D21;
+}
+
+ul.menu>li:hover {
+    overflow: visible;
+}
+
+#active {
+    color: #F36D21;
+}
+
+
+/* ---------------------------------- FOOTER ---------------------------------- */
 .curve {
     background: radial-gradient(100% 100% at top, transparent 52%, #1d1313 50%);
     margin: 0 auto;
