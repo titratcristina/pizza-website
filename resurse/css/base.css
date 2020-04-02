@@ -89,6 +89,31 @@ img {
     color: #F36D21;
 }
 
+.price {
+    font-size: 1.5rem;
+}
+
+.btn-orange {
+    font-size: 0.9em;
+    border: 0.1em solid #F36D21;
+    border-radius: 0.5rem;
+    background-color: #ffffff;
+    font-family: Roboto;
+    padding: 0.8rem;
+}
+
+.btn-orange:hover {
+    background-color: #F36D21;
+    color: #ffffff;
+}
+
+img {
+    transition: padding-top 2ms;
+}
+
+img:hover {
+    padding-top: 10px;
+}
 
 h1 {
     font-size: 2.5rem;
