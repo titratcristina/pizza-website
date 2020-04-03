@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <title>3.14zza | Pagina principală</title>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Pagină cu produse: Pizza, Gustări, Desert, Băuturi">
+    <meta name="keywords" content="pizza, desert, mâncare, gustări, băuturi, comandă">
+    <meta name="author" content="Cristina Titrat">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="resurse/imagini/favicon.ico" type="image/gif">
+    <link rel="stylesheet" href="resurse/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="resurse/css/style_400.css" type="text/css" media="screen and (max-width: 400px)" />
+    <link rel="stylesheet" href="resurse/css/style_900.css" type="text/css"
+        media="(min-width: 401px) and (max-width: 900px)" />
+    <link rel="stylesheet" href="resurse/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header id="top">
+        <nav>
+            <label id="hamburger" for="ch-menu">
+                <i class="fa fa-bars"></i>
+            </label>
+            <input id="ch-menu" type="checkbox">
+            <ul class="menu">
+                <li class="sm-none md-none">
+                    <a href="index.html"><img class="logo" src="resurse/imagini/pizza-logo.png" alt="Logo Pizza"
+                            title="Logo Pizza"></a>
+                </li>
+                <li><a href="index.html">Acasă</a></li>
+                <li>
+                    <label for="opt_galerii">
+                        Meniu
+                    </label>
+                    <!--Am folosit un checkbox pentru inchiderea/deschiderea submeniului-->
+                    <input class="ch-submenu" type="checkbox" id="opt_galerii">
+                    <ul class="submenu">
+                        <li><a href="pizza.html">Pizza</a></li>
+                        <li><a href="pizza.html#gustari">Gustări</a></li>
+                        <li><a href="pizza.html#desert">Desert</a></li>
+                        <li><a href="pizza.html#bauturi">Băuturi</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#">Oferte</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Blog</a></li>
+                <li id="login"><a href="#" id="active">Intră în cont!</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <section>
+            <a href="#top" id="top-btn"><i class="fa fa-arrow-up"></i></a>
+            <div class="row mt-5 mt-sm-0 mt-md-0">
+                <div class="col-12 mb-4 mt-3 text-center">
+                    <h2>Nu rata ofertele noastre!</h2>
+                    <p class="mt-3">În fiecare zi la ora 13:14 avem o ofertă <strong
+                            class="orange-effect">specială</strong> pentru tine!</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div id="galerie_exemplu" class="galerie">
+                <div>
+                    <figure>
+                        <img src="resurse/imagini/pizza-banner.png" alt="Banner Pizza">
+                        <figcaption>Promocode: <strong>3.14first</strong></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="resurse/imagini/oferte/pi-birthday.png" alt="Banner Pizza">
+                        <figcaption>Promocode: <strong>3.14birthday</strong></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="resurse/imagini/oferte/pi-happyhour.png" alt="Banner Pizza">
+                        <figcaption>Promocode: <strong>3.14happyhour</strong></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="resurse/imagini/oferte/pi-stayhome.png" alt="Banner Pizza">
+                        <figcaption>Promocode: <strong>3.14stayhome</strong></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="resurse/imagini/oferte/pi-birthday.png" alt="Banner Pizza">
+                        <figcaption>Promocode: <strong>3.14birthday</strong></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="resurse/imagini/oferte/pi-happyhour.png" alt="Banner Pizza">
+                        <figcaption>Promocode: <strong>3.14happyhour</strong></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="resurse/imagini/oferte/pi-stayhome.png" alt="Banner Pizza">
+                        <figcaption>Promocode: <strong>3.14stayhome</strong></figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+    <footer>
+        <img class="icon" src="resurse/imagini/pizza.svg" alt="Pizza Icon">
+        <div class="curve"></div>
+        <div class="footer">
+            <p>
+                <span class="font-pacifico">Pizza </span>
+                ©&nbsp; 2020
+                <span class="right">
+                    <i>telefon comenzi</i> <br />
+                    <strong class="text-large">*0314</strong><br />
+                    din ∀ retea
+                </span>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
