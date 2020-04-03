@@ -101,6 +101,7 @@ ul.menu>li>ul.submenu {
 ul.menu>li>a,
 ul.menu>li>label,
 ul.submenu>li>a {
+    font-weight: 200;
     line-height: 4rem;
     display: block;
     height: 100%;
@@ -109,9 +110,10 @@ ul.submenu>li>a {
     transition: all 0.5s linear;
 }
 
-ul.menu a:hover,
-ul.menu label:hover {
-    background: rgba(255, 255, 255, 0.5);
+ul.menu>li>a:hover,
+ul.menu>li>label:hover,
+ul.submenu>li>a:hover {
+    color: #F36D21;
 }
 
 #hamburger {
@@ -143,6 +145,11 @@ ul.submenu {
 
 #active {
     color: #F36D21;
+}
+
+nav ul li#login:last-child {
+    float: right;
+    padding-right: 1rem;
 }
 
 /* ---------------------------------- FOOTER ---------------------------------- */
