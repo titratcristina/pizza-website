@@ -1,12 +1,18 @@
-.sm-none {
+.md-none {
     display: none !important;
 }
 
-.mt-sm-0 {
+.mt-md-0 {
     margin-top: 0 !important;
 }
 
 /* ---------------------------------- MENU ---------------------------------- */
+ul.menu>li>a,
+ul.menu>li>label,
+ul.submenu>li>a {
+    line-height: 2rem;
+}
+
 nav {
     z-index: 100;
 }
@@ -17,6 +23,8 @@ nav {
 
 #hamburger i {
     font-size: 30px;
+    padding-top: 2vw;
+    padding-left: 3vw;
 }
 
 ul.menu {
@@ -29,6 +37,7 @@ ul.menu {
 }
 
 ul.menu>li {
+    width: 100%;
     background-color: #ffffff;
     color: #1D1313;
 }
