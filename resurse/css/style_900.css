@@ -31,6 +31,7 @@ ul.menu {
     display: none;
 }
 
+
 #ch-menu:checked~ul.menu {
     display: block;
 
@@ -40,6 +41,7 @@ ul.menu>li {
     width: 100%;
     background-color: #ffffff;
     color: #1D1313;
+    width: 100%;
 }
 
 /* ---------------------------------- FOOTER ---------------------------------- */
@@ -54,4 +56,54 @@ footer {
 
 .footer {
     padding-top: 1rem;
+}
+
+
+/* ---------------------------------- COLOANE ---------------------------------- */
+.col-md-1 {
+    width: 8.33% !important;
+}
+
+.col-md-2 {
+    width: 16.66% !important;
+}
+
+.col-md-3 {
+    width: 25% !important;
+}
+
+.col-md-4 {
+    width: 33.33% !important;
+}
+
+.col-md-5 {
+    width: 41.66% !important;
+}
+
+.col-md-6 {
+    width: 50% !important;
+}
+
+.col-md-7 {
+    width: 58.33% !important;
+}
+
+.col-md-8 {
+    width: 66.66% !important;
+}
+
+.col-md-9 {
+    width: 75% !important;
+}
+
+.col-md-10 {
+    width: 83.33% !important;
+}
+
+.col-md-11 {
+    width: 91.66% !important;
+}
+
+.col-md-12 {
+    width: 100% !important;
 }
