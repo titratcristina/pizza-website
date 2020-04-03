@@ -13,8 +13,9 @@
     <link rel="icon" href="resurse/imagini/favicon.ico" type="image/gif">
     <link rel="stylesheet" href="resurse/css/style.css" type="text/css" />
     <link rel="stylesheet" href="resurse/css/base.css" type="text/css" />
-    <link rel="stylesheet" href="" type="text/css" media="screen and (max-width: 700px)" />
-    <link rel="stylesheet" href="" type="text/css" media="screen and (max-width: 400px)" />
+    <link rel="stylesheet" href="resurse/css/style_400.css" type="text/css" media="screen and (max-width: 400px)" />
+    <link rel="stylesheet" href="resurse/css/style_900.css" type="text/css"
+        media="(min-width: 401px) and (max-width: 900px)" />
     <link rel="stylesheet" href="resurse/font-awesome-4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
@@ -22,32 +23,36 @@
 </head>
 
 <body>
-    <header>
+    <header id="top">
         <nav>
+            <label id="hamburger" for="ch-menu">
+                <i class="fa fa-bars"></i>
+            </label>
+            <input id="ch-menu" type="checkbox">
             <ul class="menu">
-                <li>
-                    <a href="index.html"><img class="logo" src="resurse/imagini/pizza-logo.png" alt="Logo Pizza"></a>
+                <li class="sm-none md-none">
+                    <a href="index.html"><img class="logo" src="resurse/imagini/pizza-logo.png" alt="Logo Pizza"
+                            title="Logo Pizza"></a>
                 </li>
                 <li><a href="index.html">Acasă</a></li>
                 <li>
-                    <div>Meniu</div>
+                    <label for="opt_galerii">
+                        Meniu
+                    </label>
+                    <!--Am folosit un checkbox pentru inchiderea/deschiderea submeniului-->
+                    <input class="ch-submenu" type="checkbox" id="opt_galerii">
                     <ul class="submenu">
                         <li><a href="pizza.html">Pizza</a></li>
-                        <li><a href="#">Desert</a></li>
-                        <li><a href="#">Băuturi</a></li>
+                        <li><a href="pizza.html#gustari">Gustări</a></li>
+                        <li><a href="pizza.html#desert">Desert</a></li>
+                        <li><a href="pizza.html#bauturi">Băuturi</a></li>
                     </ul>
                 </li>
-                <li>
-                    <div>Magazine</div>
-                    <ul class="submenu">
-                        <li><a href="#">București</a></li>
-                        <li><a href="#">Timișoara</a></li>
-                    </ul>
-                </li>
+
                 <li><a href="#">Oferte</a></li>
                 <li><a href="#">Contact</a></li>
                 <li><a href="#">Blog</a></li>
-                <li><a href="#" id="active">Intră în cont!</a></li>
+                <li id="login"><a href="#" id="active">Intră în cont!</a></li>
             </ul>
         </nav>
     </header>
@@ -62,6 +67,8 @@
     </section>
 
     <main>
+        <a href="#top" id="top-btn"><i class="fa fa-arrow-up"></i></a>
+
         <section>
             <div class="row text-center">
                 <div class="col-12 mb-4">
