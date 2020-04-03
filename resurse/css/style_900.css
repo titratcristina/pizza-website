@@ -41,3 +41,17 @@ ul.menu>li {
     background-color: #ffffff;
     color: #1D1313;
 }
+
+/* ---------------------------------- FOOTER ---------------------------------- */
+footer {
+    margin-top: 3rem;
+}
+
+.curve,
+.icon {
+    display: none;
+}
+
+.footer {
+    padding-top: 1rem;
+}
