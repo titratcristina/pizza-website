@@ -6,6 +6,10 @@
     margin-top: 0 !important;
 }
 
+.banner {
+    padding-top: 4rem;
+}
+
 /* ---------------------------------- MENU ---------------------------------- */
 nav {
     z-index: 100;
