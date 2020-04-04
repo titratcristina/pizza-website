@@ -1,0 +1,10 @@
+nav,
+footer,
+#top-btn,
+#hero {
+    display: none;
+}
+
+main {
+    padding-top: 0;
+}
