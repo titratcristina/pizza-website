@@ -158,7 +158,7 @@ figure#hero:hover figcaption {
 .orange-effect {
     background: linear-gradient(to right, #ffffff 0%, #F36D21 50%, #ffffff 100%);
     background-size: 200% auto;
-    color: #000;
+    color: #1D1313;
     /* https://developer.mozilla.org/en-US/docs/Web/CSS/background-clip */
     background-clip: text;
     -webkit-background-clip: text;
