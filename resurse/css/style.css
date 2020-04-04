@@ -37,6 +37,8 @@ address {
 
 iframe {
     width: 100%;
+    border: none;
+    overflow: hidden;
 }
 
 .right {
