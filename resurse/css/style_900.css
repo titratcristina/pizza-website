@@ -10,6 +10,10 @@
     margin-top: 0 !important;
 }
 
+.banner {
+    padding-top: 4rem;
+}
+
 /* ---------------------------------- GALLERY ---------------------------------- */
 .galerie figure {
     width: 100%;
