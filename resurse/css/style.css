@@ -160,7 +160,6 @@ figure#hero:hover figcaption {
     background-size: 200% auto;
     color: #1D1313;
     /* https://developer.mozilla.org/en-US/docs/Web/CSS/background-clip */
-    background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
     animation: shine 1s linear infinite;
