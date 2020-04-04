@@ -30,6 +30,11 @@ h6 {
     font-family: 'Open Sans', sans-serif;
 }
 
+address {
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+}
+
 .right {
     float: right;
 }
@@ -92,6 +97,15 @@ figure#hero:hover figcaption {
 .text-center {
     text-align: center !important;
 }
+
+/* ---------------------------------- CONTACT TEXT ---------------------------------- */
+.contact {
+    text-decoration: none;
+    color: #F36D21;
+    font-family: "Pacifico";
+    font-size: 1.3rem;
+}
+
 
 /* ---------------------------------- ACCENT COLOR ---------------------------------- */
 .accent-color {
@@ -240,6 +254,7 @@ table#tabelescu {
     border-spacing: 0;
     border-collapse: separate;
     box-sizing: border-box;
+    margin: auto;
 }
 
 table#tabelescu>tbody td {
