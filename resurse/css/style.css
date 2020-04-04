@@ -223,6 +223,35 @@ figure#hero:hover figcaption {
     }
 }
 
+/* ---------------------------------- TABLE ---------------------------------- */
+html,
+body {
+    counter-reset: nra;
+}
+
+table#tabelescu,
+table#tabelescu td,
+table#tabelescu th {
+    border: 1px solid black;
+    padding: 1em;
+}
+
+table#tabelescu {
+    border-spacing: 0;
+    border-collapse: separate;
+    box-sizing: border-box;
+}
+
+table#tabelescu>tbody td {
+    counter-increment: nra;
+    /*ca sa numar cate zile se lucrează */
+}
+
+table#tabelescu tfoot td::after {
+    content: " "counter(nra)" zile/săpt.";
+}
+
+
 /* ---------------------------------- MENU ---------------------------------- */
 nav {
     width: 100%;
