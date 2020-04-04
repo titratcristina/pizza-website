@@ -47,6 +47,10 @@ h6 {
     width: 50%
 }
 
+.none {
+    display: none;
+}
+
 /* ---------------------------------- BANNER ---------------------------------- */
 .banner {
     padding-top: 4vw;
@@ -186,19 +190,19 @@ figure#hero:hover figcaption {
     animation-name: gal_exemplu;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    animation-duration: 21s;
+    animation-duration: 12s;
     transform-origin: 0px center;
 }
 
-#galerie_exemplu figure:nth-of-type(7) {
+#galerie_exemplu figure:nth-of-type(1) {
     animation-delay: 0s;
 }
 
-#galerie_exemplu figure:nth-of-type(6) {
+#galerie_exemplu figure:nth-of-type(2) {
     animation-delay: 4s;
 }
 
-#galerie_exemplu figure:nth-of-type(5) {
+#galerie_exemplu figure:nth-of-type(3) {
     animation-delay: 8s;
 }
 
@@ -206,17 +210,6 @@ figure#hero:hover figcaption {
     animation-delay: 12s;
 }
 
-#galerie_exemplu figure:nth-of-type(3) {
-    animation-delay: 15s;
-}
-
-#galerie_exemplu figure:nth-of-type(2) {
-    animation-delay: 18s;
-}
-
-#galerie_exemplu figure:nth-of-type(1) {
-    animation-delay: 21s;
-}
 
 @keyframes gal_exemplu {
     0% {

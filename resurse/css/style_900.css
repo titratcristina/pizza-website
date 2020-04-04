@@ -2,8 +2,21 @@
     display: none !important;
 }
 
+.none {
+    display: block;
+}
+
 .mt-md-0 {
     margin-top: 0 !important;
+}
+
+/* ---------------------------------- GALLERY ---------------------------------- */
+.galerie figure {
+    width: 100%;
+}
+
+.galerie:hover figcaption {
+    padding: 4vw 0;
 }
 
 /* ---------------------------------- MENU ---------------------------------- */
