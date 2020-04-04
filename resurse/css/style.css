@@ -35,6 +35,10 @@ address {
     line-height: 2.2rem;
 }
 
+iframe {
+    width: 100%;
+}
+
 .right {
     float: right;
 }
