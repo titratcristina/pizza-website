@@ -19,8 +19,8 @@
     width: 100%;
 }
 
-.galerie:hover figcaption {
-    padding: 4vw 0;
+.galerie figcaption {
+    display: none;
 }
 
 /* ---------------------------------- TABLE ---------------------------------- */
