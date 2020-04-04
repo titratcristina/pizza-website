@@ -4,7 +4,8 @@ footer,
 #fb-share,
 #hero,
 #galerie_exemplu,
-#contact-heading {
+#contact-heading,
+#promocode {
     display: none;
 }
 
@@ -15,4 +16,3 @@ main {
 #print-only {
     display: block;
 }
-
