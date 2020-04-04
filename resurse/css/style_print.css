@@ -2,10 +2,17 @@ nav,
 footer,
 #top-btn,
 #fb-share,
-#hero {
+#hero,
+#galerie_exemplu,
+#contact-heading {
     display: none;
 }
 
 main {
     padding-top: 0;
 }
+
+#print-only {
+    display: block;
+}
+

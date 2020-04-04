@@ -62,6 +62,10 @@ iframe {
     display: none;
 }
 
+#print-only {
+    display: none;
+}
+
 /* ---------------------------------- BANNER ---------------------------------- */
 .banner {
     padding-top: 4vw;
