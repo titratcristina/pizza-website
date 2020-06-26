@@ -1,0 +1,55 @@
+<header id="top">
+    <nav>
+        <label id="hamburger" for="ch-menu">
+            <i class="fa fa-bars"></i>
+        </label>
+        <input id="ch-menu" type="checkbox">
+        <ul class="menu">
+            <li class="sm-none md-none">
+                <a href="index"><img class="logo" src="imagini/pizza-logo.png" alt="Logo Pizza" title="Logo Pizza"></a>
+            </li>
+            <li><a href="index">Acasă</a></li>
+            <li>
+                <label for="opt_galerii">
+                    Meniu
+                </label>
+                <!--Am folosit un checkbox pentru inchiderea/deschiderea submeniului-->
+                <input class="ch-submenu" type="checkbox" id="opt_galerii">
+                <ul class="submenu">
+                    <li><a href="pizza">Pizza</a></li>
+                    <li><a href="pizza#gustari">Gustări</a></li>
+                    <li><a href="pizza#desert">Desert</a></li>
+                    <li><a href="pizza#bauturi">Băuturi</a></li>
+                </ul>
+            </li>
+
+            <li><a href="oferte">Oferte</a></li>
+            <li><a href="contact">Contact</a></li>
+            <li><a href="contact#program">Program</a></li>
+
+
+
+            <% if(locals.rol == "admin") { %>
+            <li><a href="admin">Administrare</a></li>
+            <% } %>
+
+
+            <% if(!locals.username) { %>
+            <li id="login"><a href="login" id="active">Intră în cont!</a></li>
+            <% } else { %>
+            <li class="right"><a href="/logout">Logout</a></li>
+            <li class="right"><a>Bun venit, <%= locals.username %>!</a></li>
+            <li class="right">
+                <label for="user">
+                    Bun venit, <%= locals.username %>!
+                </label>
+                <!--Am folosit un checkbox pentru inchiderea/deschiderea submeniului-->
+                <input class="ch-submenu" type="checkbox" id="user">
+                <ul class="submenu">
+                    <li>Scrii aici</li>
+                </ul>
+            </li>
+            <% } %>
+        </ul>
+    </nav>
+</header>

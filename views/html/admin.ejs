@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162775347-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-162775347-1');
+    </script>
+
+    <title>3.14zza | Meniu</title>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Pagină cu produse: Pizza, Gustări, Desert, Băuturi">
+    <meta name="keywords" content="pizza, desert, mâncare, gustări, băuturi, comandă">
+    <meta name="author" content="Cristina Titrat">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="imagini/favicon.ico" type="image/gif">
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/style_400.css" type="text/css" media="screen and (max-width: 400px)" />
+    <link rel="stylesheet" href="css/style_900.css" type="text/css" media="(min-width: 401px) and (max-width: 900px)" />
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <script src="javascript/ejs.min.js"></script>
+    <script src="javascript/admin.js"></script>
+</head>
+
+<body>
+    <%- include("../components/header")  %>
+
+    <main>
+        <a href="#top" id="top-btn"><i class="fa fa-arrow-up"></i></a>
+
+        <section>
+            <div class="row mt-5 mt-sm-0 mt-md-0">
+                <div class="col-12 mb-4 mt-3 text-center">
+                    <h2>Pagina de administrare</h2>
+                    <p class="mt-3">De aici se pot modifica produsele</p>
+                </div>
+
+                <div class="row afis" id="afisTemplate"></div>
+
+            </div>
+        </section>
+
+
+    </main>
+
+    <%- include("../components/footer")  %>
+
+    <!-- <script>
+        function changeColor() {
+            var element = document.getElementsByClassName("favorite")[0];
+            element.classList.toggle("active");
+        }
+    </script> -->
+
+</body>
+
+</html>
