@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162775347-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-162775347-1');
+    </script>
+
+    <title>3.14zza | Oferte</title>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Pagină cu oferte: 2 pizza la pret de una, pizza gratis">
+    <meta name="keywords" content="pizza, cadou, zi naștere, reducere, promocode, prima comandă">
+    <meta name="author" content="Cristina Titrat">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="imagini/favicon.ico" type="image/gif">
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/style_print.css" type="text/css" media="print" />
+    <link rel="stylesheet" href="css/style_400.css" type="text/css" media="screen and (max-width: 400px)" />
+    <link rel="stylesheet" href="css/style_900.css" type="text/css" media="(min-width: 401px) and (max-width: 900px)" />
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <% include ../components/header %>
+
+    <main>
+        <section id="contact-heading">
+            <h1 class="none sm-none md-none">Oferte</h1>
+            <a href="#top" id="top-btn"><i class="fa fa-arrow-up"></i></a>
+            <div class="row mt-5 mt-sm-0 mt-md-0">
+                <div class="col-12 mb-4 mt-3 text-center">
+                    <h2>Nu rata ofertele noastre!</h2>
+                    <p class="mt-3">În fiecare zi la ora 13:14 avem o ofertă <strong
+                            class="orange-effect">specială</strong> pentru tine!</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="none sm-none md-none">Galerie oferte</h2>
+            <div id="galerie_exemplu" class="galerie">
+                <div>
+                    <figure>
+                        <img class="md-none sm-none" src="imagini/pizza-banner.png" alt="Promocode: 3.14first"
+                            title="Promocode: 3.14first">
+                        <img class="none" src="imagini/oferte/pi-md-banner.png" alt="Promocode: 3.14first"
+                            title="Promocode: 3.14first">
+                        <figcaption>Promocode: <strong>3.14first</strong></figcaption>
+                    </figure>
+                    <figure>
+                        <img class="md-none sm-none" src="imagini/oferte/pi-birthday.png" alt="Promocode: 3.14birthday"
+                            title="Promocode: 3.14birthday">
+                        <img class="none" src="imagini/oferte/pi-md-birthday.png" alt="Promocode: 3.14birthday"
+                            title="Promocode: 3.14birthday">
+                        <figcaption>Promocode: <strong>3.14birthday</strong></figcaption>
+                    </figure>
+                    <figure>
+                        <img class="md-none sm-none" src="imagini/oferte/pi-happyhour.png"
+                            alt="Promocode: 3.14happyhour" title="Promocode: 3.14happyhour">
+                        <img class="none" src="imagini/oferte/pi-md-happyhour.png" alt="Promocode: 3.14happyhour"
+                            title="Promocode: 3.14happyhour">
+                        <figcaption>Promocode: <strong>3.14happyhour</strong></figcaption>
+                    </figure>
+                    <figure>
+                        <img class="md-none sm-none" src="imagini/oferte/pi-stayhome.png" alt="Promocode: 3.14stayhome"
+                            title="Promocode: 3.14stayhome">
+                        <img class="none" src="imagini/oferte/pi-md-stayhome.png" alt="Promocode: 3.14stayhome"
+                            title="Promocode: 3.14stayhome">
+                        <figcaption>Promocode: <strong>3.14stayhome</strong></figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section id="promocode" class="none sm-none md-none">
+            <h2 class="none sm-none md-none">Reducere</h2>
+            <div class="row mt-5 mb-5 mt-sm-0 mt-md-0">
+                <div class="col-12 mb-4 mt-3 text-center">
+                    <h3>Oferta de astăzi este de <span id="code"></span>% reducere</h3>
+                    <p class="mt-3">Aceasta este ora la care apare o reducere specială pentru tine!</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="print-only">
+            <h2 class="none md-none sm-none">Oferte</h2>
+            <figure>
+                <img class="none" src="imagini/oferte/pi-md-banner.png" alt="Promocode: 3.14first"
+                    title="Promocode: 3.14first">
+                <figcaption class="pt-3 text-center">Promocode: <strong>3.14first</strong></figcaption>
+            </figure>
+            <br>
+            <figure>
+                <img class="none" src="imagini/oferte/pi-md-birthday.png" alt="Promocode: 3.14birthday"
+                    title="Promocode: 3.14birthday">
+                <figcaption class="pt-3 text-center">Promocode: <strong>3.14birthday</strong></figcaption>
+            </figure>
+            <figure>
+                <img class="none" src="imagini/oferte/pi-md-happyhour.png" alt="Promocode: 3.14happyhour"
+                    title="Promocode: 3.14happyhour">
+                <figcaption class="pt-3 text-center">Promocode: <strong>3.14happyhour</strong></figcaption>
+            </figure>
+            <br>
+            <figure>
+                <img class="none" src="imagini/oferte/pi-md-stayhome.png" alt="Promocode: 3.14stayhome"
+                    title="Promocode: 3.14stayhome">
+                <figcaption class="pt-3 text-center">Promocode: <strong>3.14stayhome</strong></figcaption>
+            </figure>
+        </section>
+
+
+    </main>
+    <% include ../components/footer %>
+
+
+    <script src="javascript/oferte.js"></script>
+</body>
+
+</html>
