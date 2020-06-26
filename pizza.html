@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162775347-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-162775347-1');
+    </script>
+
+    <title>3.14zza | Meniu</title>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Pagină cu produse: Pizza, Gustări, Desert, Băuturi">
+    <meta name="keywords" content="pizza, desert, mâncare, gustări, băuturi, comandă">
+    <meta name="author" content="Cristina Titrat">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="resurse/imagini/favicon.ico" type="image/gif">
+    <link rel="stylesheet" href="resurse/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="resurse/css/style_400.css" type="text/css" media="screen and (max-width: 400px)" />
+    <link rel="stylesheet" href="resurse/css/style_900.css" type="text/css"
+        media="(min-width: 401px) and (max-width: 900px)" />
+    <link rel="stylesheet" href="resurse/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header id="top">
+        <nav>
+            <label id="hamburger" for="ch-menu">
+                <i class="fa fa-bars"></i>
+            </label>
+            <input id="ch-menu" type="checkbox">
+            <ul class="menu">
+                <li class="sm-none md-none">
+                    <a href="index.html"><img class="logo" src="resurse/imagini/pizza-logo.png" alt="Logo Pizza"
+                            title="Logo Pizza"></a>
+                </li>
+                <li><a href="index.html">Acasă</a></li>
+                <li>
+                    <label for="opt_galerii">
+                        Meniu
+                    </label>
+                    <!--Am folosit un checkbox pentru inchiderea/deschiderea submeniului-->
+                    <input class="ch-submenu" type="checkbox" id="opt_galerii">
+                    <ul class="submenu">
+                        <li><a href="pizza.html">Pizza</a></li>
+                        <li><a href="pizza.html#gustari">Gustări</a></li>
+                        <li><a href="pizza.html#desert">Desert</a></li>
+                        <li><a href="pizza.html#bauturi">Băuturi</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="oferte.html">Oferte</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html#program">Program</a></li>
+                <li id="login"><a href="#" id="active">Intră în cont!</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <section>
+            <a href="#top" id="top-btn"><i class="fa fa-arrow-up"></i></a>
+            <div class="row mt-5 mt-sm-0 mt-md-0">
+                <div class="col-12 mb-4 mt-3 text-center">
+                    <h2>Alege din sortimentele noastre de Pizza</h2>
+                    <p class="mt-3">Zilnic, în București. Gata în <b>31.4</b> minute!</p>
+                </div>
+                <div class="col-4 col-sm-12 col-md-12">
+                    <div class="card">
+                        <img class="bigger" src="resurse/imagini/pizza/pepperoni.jpg" alt="Pepperoni" title="Pepperoni">
+                        <h3>Pepperoni 🌶️</h3>
+                        <p class="pt-3">Mozzarella, salam pepperoni, sos de roșii</p>
+                        <p class="price mt-4 left">31,4 lei</p>
+                        <button class="btn-orange mt-3 right" type="button">Adaugă în coș</button>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-12 col-md-12">
+                    <div class="card">
+                        <img src="resurse/imagini/pizza/prosciutto-funghi.jpg" alt="Prosciutto and funghi"
+                            title="Prosciutto and funghi">
+                        <h3>Prosciutto and funghi</h3>
+                        <p class="pt-3">Sunca, mozzarella, sos de roșii, ciuperci</p>
+                        <p class="price mt-4 left">31,4 lei</p>
+                        <button class="btn-orange mt-3 right" type="button">Adaugă în coș</button>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-12 col-md-12">
+                    <div class="card">
+                        <img src="resurse/imagini/pizza/quatro-formaggi.jpg" alt="Quatro Formaggi"
+                            title="Quatro Formaggi">
+                        <h3>Quatro Formaggi</h3>
+                        <p class="pt-3">Mozzarella, bluecheese, parmezan</p>
+                        <p class="price mt-4 left">31,4 lei</p>
+                        <button class="btn-orange mt-3 right" type="button">Adaugă în coș</button>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-12 col-md-12">
+                    <div class="card">
+                        <img src="resurse/imagini/pizza/rustica.jpg" alt="Rustica" title="Rustica">
+                        <h3>Rustica</h3>
+                        <p class="pt-3">Piept de pui, sunca, ceapa rosie, mozzarella, ardei gras, sos de roșii, porumb
+                        </p>
+                        <p class="price mt-4 left">31,4 lei</p>
+                        <button class="btn-orange mt-3 right" type="button">Adaugă în coș</button>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-12 col-md-12">
+                    <div class="card">
+                        <img src="resurse/imagini/pizza/veggy.jpg" alt="Veggy" title="Veggy">
+                        <h3>Veggy 🌱</h3>
+                        <p class="pt-3">Busuioc, ceapa rosie, masline rondele, mozzarella, ardei gras, sos de roșii,
+                            rosii proaspete, feta, ciuperci</p>
+                        <p class="price mt-4 left">31,4 lei</p>
+                        <button class="btn-orange mt-3 right" type="button">Adaugă în coș</button>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-12 col-md-12">
+                    <div class="card">
+                        <img src="resurse/imagini/pizza/italian.jpg" alt="Italian" title="Italian">
+                        <h3>Italian</h3>
+                        <p class="pt-3">Masline rondele, mozzarella, oregano, salam pepperoni, sos de roșii, ciuperci
+                        </p><br />
+                        <p class="price mt-4 left">31,4 lei</p>
+                        <button class="btn-orange mt-3 right" type="button">Adaugă în coș</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gustari">
+            <div class="row mt-5">
+                <div class="col-12 mb-4 mt-3 text-center">
+                    <h2>Nu ai poftă de pizza? Alege o gustare!</h2>
+                    <p class="mt-3">Zilnic, în București. Gata în <b>31.4</b> minute!</p>
+                </div>
+                <div class="col-4 col-sm-12 col-md-12">
+                    <div class="card">
+                        <img src="resurse/imagini/gustari/cartofi.jpg" alt="Cartofi pai" title="Cartofi pai">
+                        <h3>Cartofi pai</h3>
+                        <p class="pt-3">Alege cei mai sanatosi cartofi pai, copti la cuptor! Asezonati cu oregano aromat
+                            si fara nici un gram de ulei.</p>
+                        <p class="price mt-4 left">31,4 lei</p>
+                        <button class="btn-orange mt-3 right" type="button">Adaugă în coș</button>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-12 col-md-12">
+                    <div class="card">
+                        <img src="resurse/imagini/gustari/hashbrown.jpg" alt="Hashbrown" title="Hashbrown">
+                        <h3>Hashbrown</h3>
+                        <p class="pt-3">Cartof copt la cuptor, fin la interior si invelis crocant la exterior.
+                            Consistente si foarte gustoase!</p>
+                        <p class="price mt-4 left">31,4 lei</p>
+                        <button class="btn-orange mt-3 right" type="button">Adaugă în coș</button>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-12 col-md-12">
+                    <div class="card">
+                        <img src="resurse/imagini/gustari/nuggets.jpg" alt="Nuggets" title="Nuggets">
+                        <h3>Nuggets</h3>
+                        <p class="pt-3">Bucatele delicate de file de pui pane, coapte la cuptor. Crusta crocanta.</p>
+                        <br />
+                        <p class="price mt-4 left">31,4 lei</p>
+                        <button class="btn-orange mt-3 right" type="button">Adaugă în coș</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="desert">
+            <div class="row mt-5">
+                <div class="col-12 mb-4 mt-3 text-center">
+                    <h2>Nu uita de un desert binemeritat!</h2>
+                    <p class="mt-3">Zilnic, în București. Gata în <b>31.4</b> minute!</p>
+                </div>
+                <div class="col-4 col-sm-12 col-md-12">
+                    <div class="card">
+                        <img src="resurse/imagini/desert/gogoasa.jpg" alt="Gogoasa cu ciocolata"
+                            title="Gogoasa cu ciocolata">
+                        <h3>Gogoasa cu ciocolata</h3>
+                        <p class="pt-3">Ciocolata fina in interior si usor crocanta la exterior. Alegerea perfecta a
+                            iubitorilor de ciocolata!</p>
+                        <p class="price mt-4 left">31,4 lei</p>
+                        <button class="btn-orange mt-3 right" type="button">Adaugă în coș</button>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-12 col-md-12">
+                    <div class="card">
+                        <img src="resurse/imagini/desert/cheesecake.jpg" alt="Cheesecake" title="Cheesecake">
+                        <h3>Cheesecake</h3>
+                        <p class="pt-3">Desert delicat de frisca si branza, cu un gust dulce si catifelat. Indulceste-ti
+                            ziua!</p><br />
+                        <p class="price mt-4 left">31,4 lei</p>
+                        <button class="btn-orange mt-3 right" type="button">Adaugă în coș</button>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-12 col-md-12">
+                    <div class="card">
+                        <img src="resurse/imagini/desert/muffin.jpg" alt="Muffin de ciocolată"
+                            title="Muffin de ciocolată">
+                        <h3>Muffin de ciocolată</h3>
+                        <p class="pt-3">Briosa de ciocolata delicioasa si pufoasa. Cu bucatele mici de ciocolata in
+                            interior. Perfecta!</p>
+                        <p class="price mt-4 left">31,4 lei</p>
+                        <button class="btn-orange mt-3 right" type="button">Adaugă în coș</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="bauturi">
+            <div class="row mt-5">
+                <div class="col-12 mb-4 mt-3 text-center">
+                    <h2>Hidratarea corespunzătoare este esențială!</h2>
+                    <p class="mt-3">Zilnic, în București. Gata în <b>31.4</b> minute!</p>
+                </div>
+                <div class="col-4 col-sm-12 col-md-12">
+                    <div class="card">
+                        <img src="resurse/imagini/bauturi/dorna-apa-plata.png" alt="Apă plată, 0,5 l"
+                            title="Apă plată, 0,5 l">
+                        <h3>Apă plată, 0,5 l</h3>
+                        <p class="price mt-4 left">3,4 lei</p>
+                        <button class="btn-orange mt-3 right" type="button">Adaugă în coș</button>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-12 col-md-12">
+                    <div class="card">
+                        <img src="resurse/imagini/bauturi/dorna-apa-minerala.png" alt="Apă minerală, 0,5 l"
+                            title="Apă minerală, 0,5 l">
+                        <h3>Apă minerală, 0,5 l</h3>
+                        <p class="price mt-4 left">3,4 lei</p>
+                        <button class="btn-orange mt-3 right" type="button">Adaugă în coș</button>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-12 col-md-12">
+                    <div class="card">
+                        <img src="resurse/imagini/bauturi/cappy-pulpy-suc-de-portocale.png" alt="Cappy Pulpy, 330ml"
+                            title="Cappy Pulpy, 330ml">
+                        <h3>Cappy Pulpy, 330ml</h3>
+                        <p class="price mt-4 left">3,4 lei</p>
+                        <button class="btn-orange mt-3 right" type="button">Adaugă în coș</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+    <footer>
+        <img class="icon" src="resurse/imagini/pizza.svg" alt="Pizza Icon">
+        <div class="curve"></div>
+        <div class="footer">
+            <p>
+                <span class="font-pacifico">Pizza </span>
+                ©&nbsp; 2020
+                <span class="right">
+                    <i>telefon comenzi</i> <br />
+                    <strong class="text-large">*0314</strong><br />
+                    din ∀ retea
+                </span>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>

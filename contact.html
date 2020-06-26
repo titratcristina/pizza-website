@@ -20,19 +20,53 @@
     <meta name="author" content="Cristina Titrat">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="icon" href="imagini/favicon.ico" type="image/gif">
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
-    <link rel="stylesheet" href="css/style_print.css" type="text/css" media="print" />
-    <link rel="stylesheet" href="css/style_400.css" type="text/css" media="screen and (max-width: 400px)" />
-    <link rel="stylesheet" href="css/style_900.css" type="text/css" media="(min-width: 401px) and (max-width: 900px)" />
-    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="resurse/imagini/favicon.ico" type="image/gif">
+    <link rel="stylesheet" href="resurse/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="resurse/css/style_print.css" type="text/css" media="print" />
+    <link rel="stylesheet" href="resurse/css/style_400.css" type="text/css" media="screen and (max-width: 400px)" />
+    <link rel="stylesheet" href="resurse/css/style_900.css" type="text/css"
+        media="(min-width: 401px) and (max-width: 900px)" />
+    <link rel="stylesheet" href="resurse/font-awesome-4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
-    <% include ../components/header %>
+    <header id="top">
+        <nav>
+            <label id="hamburger" for="ch-menu">
+                <i class="fa fa-bars"></i>
+            </label>
+            <input id="ch-menu" type="checkbox">
+            <ul class="menu">
+                <li class="sm-none md-none">
+                    <a href="index.html"><img class="logo" src="resurse/imagini/pizza-logo.png" alt="Logo Pizza"
+                            title="Logo Pizza"></a>
+                </li>
+                <li><a href="index.html">Acasă</a></li>
+                <li>
+                    <label for="opt_galerii">
+                        Meniu
+                    </label>
+                    <!--Am folosit un checkbox pentru inchiderea/deschiderea submeniului-->
+                    <input class="ch-submenu" type="checkbox" id="opt_galerii">
+                    <ul class="submenu">
+                        <li><a href="pizza.html">Pizza</a></li>
+                        <li><a href="pizza.html#gustari">Gustări</a></li>
+                        <li><a href="pizza.html#desert">Desert</a></li>
+                        <li><a href="pizza.html#bauturi">Băuturi</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="oferte.html">Oferte</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html#program">Program</a></li>
+                <li id="login"><a href="#" id="active">Intră în cont!</a></li>
+            </ul>
+        </nav>
+    </header>
+
 
     <main>
         <section>
@@ -69,7 +103,7 @@
                         height="450" aria-hidden="false" tabindex="0">
                     </iframe>
                     <!-- <figure>
-                        <img src="imagini/adresa.png" alt="Adresa noastră" title="Adresa noastră">
+                        <img src="resurse/imagini/adresa.png" alt="Adresa noastră" title="Adresa noastră">
                         <figcaption>Numărul 314, Strada Infinitului, Sector 3, București, România</figcaption>
                     </figure> -->
                 </div>
@@ -123,8 +157,21 @@
 
 
     </main>
-    <% include ../components/footer %>
-
+    <footer>
+        <img class="icon" src="resurse/imagini/pizza.svg" alt="Pizza Icon">
+        <div class="curve"></div>
+        <div class="footer">
+            <p>
+                <span class="font-pacifico">Pizza </span>
+                ©&nbsp; 2020
+                <span class="right">
+                    <i>telefon comenzi</i> <br />
+                    <strong class="text-large">*0314</strong><br />
+                    din ∀ retea
+                </span>
+            </p>
+        </div>
+    </footer>
 </body>
 
 </html>
