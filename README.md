@@ -1,2 +1,2 @@
-# pizza
- 
+# pizza-website
+University website project 🍕
